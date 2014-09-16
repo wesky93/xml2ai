@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN"    "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd" [
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+]>
+<svg>
+<variableSets  xmlns="&ns_vars;">
+	<variableSet  locked="none" varSetName="binding1">
+		<variables>
+			<variable  varName="변수1" trait="textcontent" category="&ns_flows;"></variable>
+			<variable  varName="변수2" trait="textcontent" category="&ns_flows;"></variable>
+			<variable  varName="변수3" trait="fileref" category="&ns_vars;"></variable>
+			<variable  varName="변수4" trait="fileref" category="&ns_vars;"></variable>
+		</variables>
+		<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;">
+			<v:sampleDataSet  dataSetName="데이터 세트 2">
+				<변수1>
+					<p>제목</p>
+				</변수1>
+				<변수2>
+					<p>내용</p>
+				</변수2>
+				<변수3>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Previews/2014/08/06/20140806-203742/PFdNuYk%TISWMlkhf9jjog/IMG_0179.jpg
+					</변수3>
+				<변수4>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Masters/2014/08/04/20140804-095634/var/folders/xd/b6qcx8jx7gb4mtzqd_qcxd4m0000gn/T/Image Capture_Import.dg4O3Ocb/IMG_0099.JPG
+					</변수4>
+			</v:sampleDataSet>
+			<v:sampleDataSet  dataSetName="데이터 세트 3">
+				<변수1>
+					<p>제목2</p>
+				</변수1>
+				<변수2>
+					<p>내용2</p>
+				</변수2>
+				<변수3>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Previews/2014/08/06/20140806-203742/PFdNuYk%TISWMlkhf9jjog/IMG_0179.jpg
+					</변수3>
+				<변수4>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Masters/2014/08/04/20140804-095634/var/folders/xd/b6qcx8jx7gb4mtzqd_qcxd4m0000gn/T/Image Capture_Import.dg4O3Ocb/IMG_0099.JPG
+					</변수4>
+			</v:sampleDataSet>
+			<v:sampleDataSet  dataSetName="데이터 세트 4">
+				<변수1>
+					<p>제목3</p>
+				</변수1>
+				<변수2>
+					<p>내용3</p>
+				</변수2>
+				<변수3>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Previews/2014/08/06/20140806-203742/PFdNuYk%TISWMlkhf9jjog/IMG_0179.jpg
+					</변수3>
+				<변수4>
+					file:////Users/sinsky/Pictures/Aperture Library.aplibrary/Masters/2014/08/04/20140804-095634/var/folders/xd/b6qcx8jx7gb4mtzqd_qcxd4m0000gn/T/Image Capture_Import.dg4O3Ocb/IMG_0099.JPG
+					</변수4>
+			</v:sampleDataSet>
+		</v:sampleDataSets>
+	</variableSet>
+</variableSets>
+</svg>
