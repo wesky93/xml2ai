@@ -11,21 +11,21 @@
 <variableSets  xmlns="&ns_vars;">
 	<variableSet  locked="none" varSetName="binding1">
 		<variables>
-			<variable  category="&ns_flows;" trait="textcontent" varName="제목"></variable>
-			<variable  category="&ns_flows;" trait="textcontent" varName="내용"></variable>
-			<variable  category="&ns_vars;" trait="fileref" varName="사진"></variable>
-			<variable  category="&ns_vars;" trait="fileref" varName="배경"></variable>
+			<variable  varName="변수1" trait="textcontent" category="&ns_flows;"></variable>
+			<variable  varName="변수2" trait="textcontent" category="&ns_flows;"></variable>
+			<variable  varName="변수3" trait="fileref" category="&ns_vars;"></variable>
+			<variable  varName="변수4" trait="fileref" category="&ns_vars;"></variable>
 		</variables>
 		<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;">
-			<v:sampleDataSet  dataSetName="기본1">
-				<제목>
+			<v:sampleDataSet  dataSetName="데이터 세트 1">
+				<변수1>
 					<p>제목</p>
-				</제목>
-				<내용>
+				</변수1>
+				<변수2>
 					<p>내용</p>
-				</내용>
-				<사진>file:////Users/sinsky/Documents///.png</사진>
-				<배경>file:////Users/sinsky/Documents///()/Hi-Tech Background/shutterstock_113236948.jpg</배경>
+				</변수2>
+				<변수3>file:////Users/sinsky/Documents///.png</변수3>
+				<변수4>file:////Users/sinsky/Documents///.png</변수4>
 			</v:sampleDataSet>
 		</v:sampleDataSets>
 	</variableSet>
